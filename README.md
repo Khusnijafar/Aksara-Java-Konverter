@@ -101,8 +101,8 @@ Sugeng enjing, kula badhe sinau aksara Jawa kangge nguri-uri budaya leluhur.
 ### Setup
 ```bash
 # Clone repository
-git clone https://github.com/username/aksara-jawa-converter.git
-cd aksara-jawa-converter
+git clone https://github.com/Khusnijafar/Aksara-Java-Konverter.git
+cd Aksara-Java-Konverter
 
 # Install dependencies (opsional, untuk development server)
 npm install
@@ -115,7 +115,7 @@ npm run serve
 
 ### Struktur File
 ```
-aksara-jawa-converter/
+Aksara-Java-Konverter/
 ├── aksara-jawa.html    # File utama aplikasi
 ├── script.js           # Logika konversi JavaScript
 ├── styles.css          # Styling CSS
