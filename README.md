@@ -1,8 +1,111 @@
 # Konverter Latin ↔ Aksara Jawa
 
-Aplikasi web sederhana untuk mengkonversi teks Latin ke Aksara Jawa dan sebaliknya secara online. Dibuat dengan HTML, CSS, dan JavaScript murni.
+Aplikasi web untuk mengkonversi teks Latin ke Aksara Jawa dan sebaliknya secara online. Dibuat dengan HTML, CSS, dan JavaScript murni.
 
-## ✨ Fitur Utama
+## 🌐 Demo Online
+
+Aplikasi ini dapat diakses secara online di: [https://username.github.io/aksara-jawa-converter](https://username.github.io/aksara-jawa-converter)
+
+## ✨ Fitur
+
+- **Konversi Dua Arah**: Latin ↔ Aksara Jawa
+- **Interface Responsif**: Bekerja dengan baik di desktop dan mobile
+- **Shortcut Keyboard**: Navigasi cepat dengan keyboard
+- **Copy to Clipboard**: Salin hasil dengan mudah
+- **Export Hasil**: Simpan hasil konversi
+- **Karakter Counter**: Monitor jumlah karakter input
+- **Dukungan Lengkap**: Semua aksara Jawa standar
+
+## 🚀 Cara Menjalankan Lokal
+
+### Prerequisites
+- Node.js (versi 12 atau lebih tinggi)
+- npm atau yarn
+
+### Instalasi
+1. Clone repository ini:
+```bash
+git clone https://github.com/username/aksara-jawa-converter.git
+cd aksara-jawa-converter
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Jalankan server lokal:
+```bash
+npm start
+# atau
+npm run serve
+```
+
+4. Buka browser dan kunjungi `http://localhost:8000`
+
+## 🌐 Deployment ke GitHub Pages
+
+### Langkah 1: Buat Repository GitHub
+1. Buat repository baru di GitHub dengan nama `aksara-jawa-converter`
+2. Push kode ke repository:
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/username/aksara-jawa-converter.git
+git push -u origin main
+```
+
+### Langkah 2: Aktifkan GitHub Pages
+1. Buka repository di GitHub
+2. Pergi ke **Settings** → **Pages**
+3. Di bagian **Source**, pilih **Deploy from a branch**
+4. Pilih branch **gh-pages** dan folder **/(root)**
+5. Klik **Save**
+
+### Langkah 3: Deploy Otomatis
+Repository ini sudah dikonfigurasi dengan GitHub Actions untuk deploy otomatis. Setiap kali Anda push ke branch `main`, aplikasi akan otomatis di-deploy ke GitHub Pages.
+
+## 📁 Struktur Project
+
+```
+aksara-jawa-converter/
+├── aksara-jawa.html      # File HTML utama
+├── styles.css            # Stylesheet CSS
+├── script.js             # JavaScript logic
+├── package.json          # Dependencies dan scripts
+├── README.md             # Dokumentasi
+├── .github/workflows/    # GitHub Actions
+└── CNAME                 # Custom domain (opsional)
+```
+
+## 🛠️ Teknologi yang Digunakan
+
+- **HTML5**: Struktur halaman
+- **CSS3**: Styling dan animasi
+- **JavaScript (ES6+)**: Logic aplikasi
+- **Google Fonts**: Typography
+- **GitHub Pages**: Hosting
+
+## 📝 Lisensi
+
+MIT License - lihat file [LICENSE](LICENSE) untuk detail.
+
+## 🤝 Kontribusi
+
+Kontribusi selalu diterima! Silakan buat pull request atau laporkan issue.
+
+## 📞 Kontak
+
+- GitHub: [@username](https://github.com/username)
+- Email: your-email@example.com
+
+---
+
+**Note**: Ganti `username` dengan username GitHub Anda yang sebenarnya di semua URL di atas.
+
+## 🎨 Fitur Utama
 
 ### 🔄 Konversi Dua Arah
 - **Latin → Aksara Jawa**: Konversi teks Latin ke aksara Jawa
